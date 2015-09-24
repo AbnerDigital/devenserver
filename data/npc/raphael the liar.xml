@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Raphael The Liar" script="rafa.lua" walkinterval="0" floorchange="0" speechbubble="1">
+	<health now="185" max="185"/>
+	<look type="574" head="95" body="122" legs="123" feet="114" addons="1" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. You take up {tirith}, the more you need to be at level 80 and pay me 350 gold coins."/>
+		<parameter key="message_farewall" value="Hello, I can take you to {tirith}, plus there is no longer the same as before, many bad things plaguing the place!"/>
+		<parameter key="message_walkaway" value="Long life and thrives!"/>
+		<parameter key="module_keywords" value="1" />
+
+	</parameters>
+</npc>

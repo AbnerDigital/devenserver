@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bullwark" nameDescription="Bullwark" race="blood" experience="16725" speed="400" manacost="100000">
+	<health now="65000" max="65000"/>
+	<look type="607" corpse="23368"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="100"/>
+		<attack name="ice strike" interval="3000" attack="200"/>
+    </attacks>    
+	<summons maxSummons="4">
+        <summon name="moohtant" chance="5000"/>
+    </summons>
+	<defenses armor="20" defense="20"/>
+	<elements>
+		<element energyPercent="25"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="MOOOOH!"/>
+		<voice sentence="Grrrr"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="2000" chance="82000"/>
+		<item id="2152" countmax="5" chance="50000"/>
+		<item id="2145" countmax="5" chance="50000"/>
+		<item id="7591" coutmax="5" chance="50000"/>
+		<item id="7590" countmax="5" chance="50000"/>
+		<item id="8472" countmax="5" chance="50000"/>
+	</loot>
+</monster>
